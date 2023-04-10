@@ -1,0 +1,97 @@
+body {
+  background-image: url("assets/background.png");
+  }
+
+.content {
+  padding: 20px 10%;
+}
+
+h1 { 
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+h3, a {
+  color: #ff0099;
+}
+
+h2{
+  font-size: 35px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1, h2, h3, dt {
+  font-family: "Spectral";
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  font-family: "consolas";
+  text-align: justify;
+  
+}
+
+.header {
+  background-color: #333333;
+  background-image: url("assets/logo.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 10%;
+  text-transform:uppercase;
+  padding: 20px;
+  font-size: 15px;
+  padding-right: 9%;
+}
+
+#navigation {
+  text-align: right;
+  position: sticky;
+  top: 0;
+}
+
+#navigation a{
+  padding: 5px 15px;
+  font-family: "consolas"; 
+}
+
+a:hover {
+  color: blue;
+}
+
+dt {
+  font-weight: bold;
+  margin-bottom: 15px;
+  margin-top:30px;
+  font-size: 25px;
+}
+
+dd {
+  margin-inline-start: 0;
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: "consolas";
+  text-align: justify;
+}
+
+#separator {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.sticky {
+  position:sticky;
+  top: 0;
+}
+
+#home {
+  visibility: hidden;
+  margin-bottom: 50px;
+}
